@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF4DCDE71532B1FB0085B0B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4DCDE61532B1FB0085B0B3 /* UIKit.framework */; };
+		DF4DCDE91532B1FB0085B0B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4DCDE81532B1FB0085B0B3 /* Foundation.framework */; };
+		DF4DCDEB1532B1FB0085B0B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4DCDEA1532B1FB0085B0B3 /* CoreGraphics.framework */; };
+		DF4DCDF11532B1FB0085B0B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF4DCDEF1532B1FB0085B0B3 /* InfoPlist.strings */; };
+		DF4DCDF31532B1FB0085B0B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4DCDF21532B1FB0085B0B3 /* main.m */; };
+		DF4DCDF71532B1FB0085B0B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4DCDF61532B1FB0085B0B3 /* AppDelegate.m */; };
+		DF4DCDFA1532B1FB0085B0B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4DCDF91532B1FB0085B0B3 /* ViewController.m */; };
+		DF4DCDFD1532B1FB0085B0B3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4DCDFB1532B1FB0085B0B3 /* ViewController.xib */; };
+		DF4DCE051532B2490085B0B3 /* CommanAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4DCE031532B2490085B0B3 /* CommanAPI.m */; };
+		DF4DCE091532B3CA0085B0B3 /* ComposeMailWithScreenShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4DCE071532B3CA0085B0B3 /* ComposeMailWithScreenShotView.m */; };
+		DF4DCE0A1532B3CA0085B0B3 /* ComposeMailWithScreenShotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4DCE081532B3CA0085B0B3 /* ComposeMailWithScreenShotView.xib */; };
+		DF4DCE0C1532B4C00085B0B3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4DCE0B1532B4C00085B0B3 /* MessageUI.framework */; };
+		DF4DCE161532B9690085B0B3 /* iPhone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF4DCE151532B9690085B0B3 /* iPhone.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF4DCDE21532B1FB0085B0B3 /* AttachScreenShotInMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttachScreenShotInMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4DCDE61532B1FB0085B0B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF4DCDE81532B1FB0085B0B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF4DCDEA1532B1FB0085B0B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF4DCDEE1532B1FB0085B0B3 /* AttachScreenShotInMail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AttachScreenShotInMail-Info.plist"; sourceTree = "<group>"; };
+		DF4DCDF01532B1FB0085B0B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF4DCDF21532B1FB0085B0B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF4DCDF41532B1FB0085B0B3 /* AttachScreenShotInMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AttachScreenShotInMail-Prefix.pch"; sourceTree = "<group>"; };
+		DF4DCDF51532B1FB0085B0B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF4DCDF61532B1FB0085B0B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF4DCDF81532B1FB0085B0B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF4DCDF91532B1FB0085B0B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF4DCDFC1532B1FB0085B0B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DF4DCE031532B2490085B0B3 /* CommanAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommanAPI.m; sourceTree = "<group>"; };
+		DF4DCE041532B2490085B0B3 /* CommanAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommanAPI.h; sourceTree = "<group>"; };
+		DF4DCE061532B3CA0085B0B3 /* ComposeMailWithScreenShotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeMailWithScreenShotView.h; sourceTree = "<group>"; };
+		DF4DCE071532B3CA0085B0B3 /* ComposeMailWithScreenShotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeMailWithScreenShotView.m; sourceTree = "<group>"; };
+		DF4DCE081532B3CA0085B0B3 /* ComposeMailWithScreenShotView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeMailWithScreenShotView.xib; sourceTree = "<group>"; };
+		DF4DCE0B1532B4C00085B0B3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DF4DCE151532B9690085B0B3 /* iPhone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhone.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF4DCDDF1532B1FB0085B0B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4DCE0C1532B4C00085B0B3 /* MessageUI.framework in Frameworks */,
+				DF4DCDE71532B1FB0085B0B3 /* UIKit.framework in Frameworks */,
+				DF4DCDE91532B1FB0085B0B3 /* Foundation.framework in Frameworks */,
+				DF4DCDEB1532B1FB0085B0B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF4DCDD71532B1FA0085B0B3 = {
+			isa = PBXGroup;
+			children = (
+				DF4DCE0B1532B4C00085B0B3 /* MessageUI.framework */,
+				DF4DCDEC1532B1FB0085B0B3 /* AttachScreenShotInMail */,
+				DF4DCDE51532B1FB0085B0B3 /* Frameworks */,
+				DF4DCDE31532B1FB0085B0B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF4DCDE31532B1FB0085B0B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DCDE21532B1FB0085B0B3 /* AttachScreenShotInMail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4DCDE51532B1FB0085B0B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DCDE61532B1FB0085B0B3 /* UIKit.framework */,
+				DF4DCDE81532B1FB0085B0B3 /* Foundation.framework */,
+				DF4DCDEA1532B1FB0085B0B3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4DCDEC1532B1FB0085B0B3 /* AttachScreenShotInMail */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DCE101532B6F50085B0B3 /* AppDelegates */,
+				DF4DCE0F1532B6E40085B0B3 /* ViewController */,
+				DF4DCE0E1532B6CA0085B0B3 /* ComposeMailWithScreenShotView */,
+				DF4DCE0D1532B6BC0085B0B3 /* CommonAPI */,
+				DF4DCDED1532B1FB0085B0B3 /* Supporting Files */,
+			);
+			path = AttachScreenShotInMail;
+			sourceTree = "<group>";
+		};
+		DF4DCDED1532B1FB0085B0B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DCE151532B9690085B0B3 /* iPhone.jpg */,
+				DF4DCDEE1532B1FB0085B0B3 /* AttachScreenShotInMail-Info.plist */,
+				DF4DCDEF1532B1FB0085B0B3 /* InfoPlist.strings */,
+				DF4DCDF21532B1FB0085B0B3 /* main.m */,
+				DF4DCDF41532B1FB0085B0B3 /* AttachScreenShotInMail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF4DCE0D1532B6BC0085B0B3 /* CommonAPI */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DCE041532B2490085B0B3 /* CommanAPI.h */,
+				DF4DCE031532B2490085B0B3 /* CommanAPI.m */,
+			);
+			name = CommonAPI;
+			sourceTree = "<group>";
+		};
+		DF4DCE0E1532B6CA0085B0B3 /* ComposeMailWithScreenShotView */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DCE061532B3CA0085B0B3 /* ComposeMailWithScreenShotView.h */,
+				DF4DCE071532B3CA0085B0B3 /* ComposeMailWithScreenShotView.m */,
+				DF4DCE081532B3CA0085B0B3 /* ComposeMailWithScreenShotView.xib */,
+			);
+			name = ComposeMailWithScreenShotView;
+			sourceTree = "<group>";
+		};
+		DF4DCE0F1532B6E40085B0B3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DCDF81532B1FB0085B0B3 /* ViewController.h */,
+				DF4DCDF91532B1FB0085B0B3 /* ViewController.m */,
+				DF4DCDFB1532B1FB0085B0B3 /* ViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DF4DCE101532B6F50085B0B3 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DCDF51532B1FB0085B0B3 /* AppDelegate.h */,
+				DF4DCDF61532B1FB0085B0B3 /* AppDelegate.m */,
+			);
+			name = AppDelegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF4DCDE11532B1FB0085B0B3 /* AttachScreenShotInMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4DCE001532B1FB0085B0B3 /* Build configuration list for PBXNativeTarget "AttachScreenShotInMail" */;
+			buildPhases = (
+				DF4DCDDE1532B1FB0085B0B3 /* Sources */,
+				DF4DCDDF1532B1FB0085B0B3 /* Frameworks */,
+				DF4DCDE01532B1FB0085B0B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttachScreenShotInMail;
+			productName = AttachScreenShotInMail;
+			productReference = DF4DCDE21532B1FB0085B0B3 /* AttachScreenShotInMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF4DCDD91532B1FA0085B0B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Saggezza India";
+			};
+			buildConfigurationList = DF4DCDDC1532B1FA0085B0B3 /* Build configuration list for PBXProject "AttachScreenShotInMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF4DCDD71532B1FA0085B0B3;
+			productRefGroup = DF4DCDE31532B1FB0085B0B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF4DCDE11532B1FB0085B0B3 /* AttachScreenShotInMail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF4DCDE01532B1FB0085B0B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4DCDF11532B1FB0085B0B3 /* InfoPlist.strings in Resources */,
+				DF4DCDFD1532B1FB0085B0B3 /* ViewController.xib in Resources */,
+				DF4DCE0A1532B3CA0085B0B3 /* ComposeMailWithScreenShotView.xib in Resources */,
+				DF4DCE161532B9690085B0B3 /* iPhone.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4DCDDE1532B1FB0085B0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4DCDF31532B1FB0085B0B3 /* main.m in Sources */,
+				DF4DCDF71532B1FB0085B0B3 /* AppDelegate.m in Sources */,
+				DF4DCDFA1532B1FB0085B0B3 /* ViewController.m in Sources */,
+				DF4DCE051532B2490085B0B3 /* CommanAPI.m in Sources */,
+				DF4DCE091532B3CA0085B0B3 /* ComposeMailWithScreenShotView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF4DCDEF1532B1FB0085B0B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4DCDF01532B1FB0085B0B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF4DCDFB1532B1FB0085B0B3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4DCDFC1532B1FB0085B0B3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF4DCDFE1532B1FB0085B0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF4DCDFF1532B1FB0085B0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF4DCE011532B1FB0085B0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AttachScreenShotInMail/AttachScreenShotInMail-Prefix.pch";
+				INFOPLIST_FILE = "AttachScreenShotInMail/AttachScreenShotInMail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF4DCE021532B1FB0085B0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AttachScreenShotInMail/AttachScreenShotInMail-Prefix.pch";
+				INFOPLIST_FILE = "AttachScreenShotInMail/AttachScreenShotInMail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF4DCDDC1532B1FA0085B0B3 /* Build configuration list for PBXProject "AttachScreenShotInMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4DCDFE1532B1FB0085B0B3 /* Debug */,
+				DF4DCDFF1532B1FB0085B0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4DCE001532B1FB0085B0B3 /* Build configuration list for PBXNativeTarget "AttachScreenShotInMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4DCE011532B1FB0085B0B3 /* Debug */,
+				DF4DCE021532B1FB0085B0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF4DCDD91532B1FA0085B0B3 /* Project object */;
+}
